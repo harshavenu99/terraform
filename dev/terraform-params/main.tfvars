@@ -14,6 +14,6 @@ private_cidrs = [
    ]
 
 accessip = "0.0.0.0/0"
-my_ip = "144.138.17.126/32"
+my_ip = "x.x.x.x/x"
 
 key_name = "testking"
