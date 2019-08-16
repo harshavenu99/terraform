@@ -1,5 +1,5 @@
 aws_region = "ap-southeast-2"
-env_name = "harsha"
+env_name = "dev"
 vpc_cidr = "10.123.0.0/16"
 
 public_cidrs = [
@@ -16,4 +16,4 @@ private_cidrs = [
 accessip = "0.0.0.0/0"
 my_ip = "144.138.17.126/32"
 
-key_name = "harsha"
+key_name = "testking"

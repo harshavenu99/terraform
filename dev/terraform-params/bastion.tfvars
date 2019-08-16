@@ -3,7 +3,7 @@
 bastion_instance_count = 1
 bastion_instance_type = "t2.micro"
 bastion_instance_name = [
-   "harsha-bastion"
+   "bastion-1a"
   ]
 
 bastion_distribution = "Ubuntu"

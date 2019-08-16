@@ -1,4 +1,4 @@
-export environment = harsha
+export environment = dev
 export region = ap-southeast-2
 
 terraform-plan:
