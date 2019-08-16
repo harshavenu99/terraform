@@ -17,9 +17,8 @@ Execute make terraform-plan, to generate the TF Plan
 
 If all is looking good, execute terraform-apply to deploy the infrastructure.
 
-```
-NOTE: The runners need a Project Token to register themselves to the server. If a project token is not mentioned in the gitlab-runners.tfvars file, the runner instances are not deployed
-```
+
+**NOTE: The runners need a Project Token to register themselves to the server. If a project token is not mentioned in the gitlab-runners.tfvars file, the runner instances are not deployed
 
 I've used the Official terraform Module for the Security Group avialable at registry.terraform.io
 
