@@ -23,5 +23,9 @@ NOTE: The runners need a Project Token to register themselves to the server.
 If a project token is not mentioned in the gitlab-runners.tfvars file, the runner instances are not deployed
 ```
 
+```
+NOTE: If the GITLAB Server external URL is not defined, the server instance is not creater
+```
+
 I've used the Official terraform Module for the Security Group avialable at registry.terraform.io
 
