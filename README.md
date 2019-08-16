@@ -13,9 +13,9 @@ export AWS_SECRET_ACCESS_KEY=xxxxx
 
 Once the AWS Credentials are set
 
-Execute make terraform-plan, to generate the TF Plan
+Execute ```make terraform-plan ```, to generate the TF Plan
 
-If all is looking good, execute terraform-apply to deploy the infrastructure.
+If all is looking good, execute ```make terraform-apply``` to deploy the infrastructure.
 
 ```
 NOTE: The runners need a Project Token to register themselves to the server. 
