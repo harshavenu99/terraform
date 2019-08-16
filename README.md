@@ -3,8 +3,11 @@
 Below are the pre-requisites before to execute the make stuff
 
 s3 bucket - dev-terraform-state ( Can be referenced from environment variable as well. Override in the Makefile )
+
 EC2 Key-Pair - testking ( EC2 key pair to be created ahead in time )
+
 export AWS_ACCESS_KEY_ID=xxxxx
+
 export AWS_SECRET_ACCESS_KEY=xxxxx
 
 
