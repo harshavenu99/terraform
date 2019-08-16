@@ -29,7 +29,7 @@ data "template_file" "gitlab-server" {
 
 module "gitlab-servercompute" {
   source          = "../../modules/compute"
-  instance_count  = "${var.gitlab-server_instance_count}"
+  instance_count  = "${var.gitlab_server_external_url != "" ? var.gitlab-runner_instance_count : 0 }"
   key_name        = "${var.key_name}"
   instance_type   = "${var.gitlab-server_server_instance_type}"
   subnets         = "${module.networking.private_subnets}"
