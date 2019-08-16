@@ -29,5 +29,4 @@ module "networking" {
   accessip      = "${var.accessip}"
   aws_region    = "${var.aws_region}"
   env_name	= "${var.env_name}"
-  network_interface = "${element(module.bastioncompute.network_interface,0)}"
 }
